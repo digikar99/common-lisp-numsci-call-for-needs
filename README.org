@@ -13,9 +13,96 @@ The following repository is an effort to consolidate the needs of multiple indiv
 
 The issues may eventually be consolidated into this README by issuing [[https://github.com/digikar99/common-lisp-numsci-call-for-needs/pulls][Pull requests]]. If you feel the consolidation process can be improved in some way, feel free to create an issue for that too, and tag it as Meta.
 
+* Remarks
+
+** OpenCV
+
+- https://www.reddit.com/r/computervision/comments/axvjfb/comment/ei16ant/?utm_source=share&utm_medium=web2x&context=3
+- Alternatives to OpenCV:
+  - ccv: https://github.com/liuliu/ccv
+  - libvips: https://github.com/libvips/libvips
+
 * awesome-cl list
 
 Source:  [[https://github.com/CodyReichert/awesome-cl?tab=readme-ov-file#numerical-and-scientific][awesome-cl]]
+
+** Graphics
+
+These are libraries for working with graphics, rather than making GUIs
+(i.e. widget toolkits), which have their own section.
+
+- ⭐ [[https://github.com/vydd/sketch][Sketch]] - A CL framework for the
+  creation of electronic art, graphics, and lots more. [MIT][200].
+- [[https://github.com/wmannis/cl-svg][cl-svg]] - A basic library for
+  producing SVG files. [Expat][14].
+- [[https://github.com/privet-kitty/dufy][dufy]] - exact color
+  manipulation and conversion in various color models. [MIT][200].
+- [[https://github.com/slyrus/opticl][opticl]] - a library for
+  representing and processing images. [BSD_2Clause][17].
+- [[https://github.com/cbaggers/varjo][Varjo]] - Lisp to GLSL
+  translator. [BSD_2Clause][17].
+- [[http://www.xach.com/lisp/vecto/][Vecto]] - Simple vector drawing
+  library. [FreeBSD][39].
+- [[http://www.xach.com/lisp/zpng/][zpng]] - A library for creating PNG
+  files. [FreeBSD][39].
+- [[https://git.mfiano.net/mfiano/pngload][pngload-fast]] - A PNG
+  (Portable Network Graphics) image format decoder in portable Common
+  Lisp with an emphasis on speed. [MIT][200].
+
+Those are bindings:
+
+- [[https://github.com/bohonghuang/claw-raylib][cl-raylib]] NEW in
+  2023 - fully auto-generated Common Lisp bindings to Raylib and Raygui
+  using claw and cffi-object. Apache 2.0.
+
+- [[https://github.com/shirakumo/glfw][glfw]] NEW in 2023 - An
+  up-to-date Common Lisp bindings library to the most recent GLFW OpenGL
+  context management library.
+
+- [[https://github.com/byulparan/common-cv][common-cv]] - the OpenCV
+  (Open Source Computer Vision Library) binding library for CommonLisp.
+  No license specified.
+
+- [[https://github.com/rpav/cl-cairo2][cl-cairo2]] - Cairo bindings.
+  [Boost 1.0][54]
+
+- [[http://weitz.de/cl-gd/][cl-gd]] - A library providing an interface
+  to the GD graphics library. [FreeBSD][39].
+
+- [[https://github.com/anwyn/cl-horde3d/][cl-horde3d]] - FFI bindings to
+  the Horde3D graphics library. Not available on Quicklisp. [EPL
+  1.0][59]
+
+- [[https://github.com/sharplispers/cl-jpeg][cl-jpeg]] - Baseline JPEG
+  encoder and decoder library. [3-clause BSD][15].
+
+- [[https://github.com/resttime/cl-liballegro][cl-liballegro]] -
+  Interface and bindings to the Allegro 5 game programming library.
+  [zlib][33].
+
+- [[https://github.com/3b/cl-opengl][cl-opengl]] - CFFI bindings to
+  OpenGL, GLU and GLUT APIs. [3-clause BSD][15].
+
+- [[https://github.com/lispgames/cl-sdl2][cl-sdl2]] - Bindings for SDL2
+  using C2FFI. [Expat][14].
+
+- [[https://github.com/BradWBeer/CLinch][CLinch]] - Common Lisp 2D/3D
+  graphics engine for OpenGL. [FreeBSD][39].
+
+- [[https://github.com/tkych/donuts][donuts]] - Graphviz interface for
+  Common Lisp. [Expat][14].
+
+- [[https://github.com/lispbuilder/lispbuilder][lispbuilder-sdl]] - A
+  set of bindings for SDL. [Expat][14].
+
+- [[https://github.com/TBRSS/lisp-magick-wand][lisp-magick-wand]] -
+  ImageMagick bindings. [BSD][15]. Not in Quicklisp.
+
+- [[https://www.common-lisp.net/project/okra/manual.html][okra]] - CFFI
+  bindings to Ogre. Not available on Quicklisp. [3-clause BSD][15].
+
+- [[https://github.com/takagi/cl-cuda][cl-cuda]] - A library to use
+  NVIDIA CUDA in Common Lisp programs. [LLGPL][8].
 
 ** Machine Learning
 
